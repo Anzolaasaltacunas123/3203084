@@ -20,3 +20,14 @@ top: 0%;
 .card img{
     object-fit: fill;
 }
+.pricing{
+    transition: transform 0.3s;
+}
+.pricing:hover{
+    transform: scale(1.03);
+}
+.testimonios{
+border: none;
+border-left: 2px solid rgb(30, 58, 219);
+height: 200px;
+}
